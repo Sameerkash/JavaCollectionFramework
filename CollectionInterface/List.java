@@ -19,6 +19,7 @@ import java.util.*;
     a.add("cse");
     a.add("ece");
     a.add("civil");
+    //appends an object to the list
 
     System.out.println(a);
 
@@ -26,6 +27,7 @@ import java.util.*;
 
     int ind = a.indexOf("cse");
     System.out.println(ind);
+    //returns the index of the object
 
     ind = a.lastIndexOf("ece");
     System.out.println(ind);
@@ -34,6 +36,7 @@ import java.util.*;
 
    String dn = a.get(0);
    System.out.println(dn);
+   // returns the object at that index
 
     System.out.println();
      System.out.println();
@@ -43,23 +46,18 @@ import java.util.*;
    {
      System.out.println(iterator.next());
    }
+   // iterates through the list in both directions
 
 
    a.remove(0);
     System.out.println(a);
      System.out.println();
+     // deletes the object of the specified index
 
      a.remove("ece");
       System.out.println(a);
        System.out.println();
-       //
-       // a.set(2,"MECH");
-       //  System.out.println(a);
-       //   System.out.println();
 
-
-
-
-
-   }
+       // deletes the object mentioned
+    }
  }
