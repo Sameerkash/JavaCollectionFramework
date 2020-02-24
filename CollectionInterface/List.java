@@ -5,16 +5,21 @@ import java.util.*;
  {
    public static  void main(String[] args) {
 
-
+// ArrayList extends AbstarctList and implemnets the List interface
      //constructors of ArrayList
      ArrayList<String> a = new ArrayList<>();
 
-     ArrayList<String> b = new ArrayList<>(16);
+     ArrayList<String> b = new ArrayList<>(16);  //default capacity of the list is 16
 
      ArrayList<String> c = new ArrayList<>(a);
 
+// Linked List extends from AbstarctSequentialList and implemnets the list interface
+// LinkedList has two constructors
+      LinkedList<String> a = new LinkedList<>();
+      LinkedList<String > b = new LinkedList<>(a);
 
-    //methods
+
+    //ArrayList and LinkedList implemnet the same methods as they are the methods of List interface
 
     a.add("cse");
     a.add("ece");
